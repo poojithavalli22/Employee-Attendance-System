@@ -1,0 +1,11 @@
+const express = require('express');
+const { checkIn, checkOut, getMyHistory, getMySummary, getTodayStatus } = require('../controllers/attendanceController');
+const { authMiddleware, requireRole } = require('../middleware/auth');
+const router = express.Router();
+router.use(authMiddleware);
+router.post('/checkin', requireRole('employee', 'manager'), checkIn);
+router.post('/checkout', requireRole('employee', 'manager'), checkOut);
+router.get('/my-history', requireRole('employee', 'manager'), getMyHistory);
+router.get('/my-summary', requireRole('employee', 'manager'), getMySummary);
+router.get('/today', requireRole('employee', 'manager'), getTodayStatus);
+module.exports = router;

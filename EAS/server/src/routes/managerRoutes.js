@@ -1,0 +1,12 @@
+const express = require('express');
+const { getAllEmployeesAttendance, getEmployeeAttendance, getTeamSummary, getTodayStatus, exportAttendanceCSV } = require('../controllers/managerController');
+const { authMiddleware, requireRole } = require('../middleware/auth');
+const router = express.Router();
+router.use(authMiddleware);
+router.use(requireRole('manager'));
+router.get('/all', getAllEmployeesAttendance);
+router.get('/employee/:id', getEmployeeAttendance);
+router.get('/summary', getTeamSummary);
+router.get('/today-status', getTodayStatus);
+router.get('/export', exportAttendanceCSV);
+module.exports = router;
