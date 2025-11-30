@@ -123,5 +123,5 @@ CORS_ORIGIN=http://localhost:3000
 
 ## Database
 <p align="center">
-  <img src="images/Database.png" alt="Database" width="800"/>
+  <img src="EAS/images/Database.png" alt="Database" width="800"/>
 </p>
