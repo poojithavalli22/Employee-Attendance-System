@@ -92,15 +92,15 @@ CORS_ORIGIN=http://localhost:3000
   <-- Manager Dashboard
 </p>
 <p align="center">
-  <img src="images/Manager%20Dashboard.png" alt="Manager Dashboard" width="800"/>
+  <img src="EAS/images/Manager%20Dashboard.png" alt="Manager Dashboard" width="800"/>
 </p>
 
 <p align="center">
-  <img src="images/All%20Employee%20Attendance.png" alt="All Employee Attendance" width="800"/>
+  <img src="EAS/images/All%20Employee%20Attendance.png" alt="All Employee Attendance" width="800"/>
 </p>
 
 <p align="center">
-  <img src="images/Reports.png" alt="Reports" width="800"/>
+  <img src="EAS/images/Reports.png" alt="Reports" width="800"/>
 </p>
 
 ## Employee Features
@@ -109,15 +109,15 @@ CORS_ORIGIN=http://localhost:3000
   <-- Employee Dashboard
 </p>
 <p align="center">
-  <img src="images/Employee%20Dashboard.png" alt="Employee Dashboard" width="800"/>
+  <img src="EAS/images/Employee%20Dashboard.png" alt="Employee Dashboard" width="800"/>
 </p>
 
 <p align="center">
-  <img src="images/Mark%20Attendance.png" alt="Mark Attendance" width="800"/>
+  <img src="EAS/images/Mark%20Attendance.png" alt="Mark Attendance" width="800"/>
 </p>
 
 <p align="center">
-  <img src="images/History.png" alt="History" width="800"/>
+  <img src="EAS/images/History.png" alt="History" width="800"/>
 </p>
 
 
